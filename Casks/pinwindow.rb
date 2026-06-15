@@ -8,7 +8,7 @@ cask "pinwindow" do
   desc "Keep any macOS window always on top"
   homepage "https://github.com/justwy/PinWindow"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "PinWindow.app"
 
